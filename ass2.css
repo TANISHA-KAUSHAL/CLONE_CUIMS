@@ -1,0 +1,238 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+@font-face{
+	font-family:"Roboto";
+	src:url("C:\Users\HP\Downloads\roboto.zip");
+}
+body{
+    max-width:100%;
+	min-height:100%;
+}
+.outer{
+	max-width:100%;
+	min-height:100%;
+	background:#da1010;
+	display: flex;
+    justify-content: center;
+}
+.position{
+    width: 100%;
+    height: 100%;
+	position:absolute;
+}
+.position img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #da1010;
+}
+.container1{
+	width:100%;
+	height:450px;
+	background-color:#f9f9f9;
+	z-index: 1;
+    position: absolute;
+}
+.logo{
+	width:auto;
+	height:118.38px;
+	padding-top:100px;
+}
+.logo img{
+	width:220px;
+	height:118.38px;
+	margin:auto;
+	display:block;
+}
+.container2{
+	width:auto;
+	height:100%;
+	padding-top:50px;
+	margin:0 89.5px;
+	z-index: 1;
+    position: absolute;
+    margin-top: 218px;
+	display: flex;
+    justify-content: center;
+
+}
+.info{
+	width:260.5;
+	height:344px;
+	background:#ffffff;
+	border:1px solid #ececed;
+    border-radius: 15px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.06);
+	float:left;
+	top:-50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.inner,.inner1{
+    padding: 30px;
+    display: inline-block;
+}
+.image{
+	width:200.5px;
+	height:60px;
+}
+
+.inner img{
+	width:55.33px;
+	height:60px;
+}
+.inner1 img{
+	width:124.66px;
+	height:60px;
+}
+
+.name h3{
+	font-weight:bold;
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:10px;
+	font-family:Roboto;
+	color:#111111;
+	height:22px;
+	line-height: 1.1; 
+}
+.work{
+	min-height:140px;
+}
+.work p{
+	height:auto;
+	font-size:14px;
+	font-family:Roboto;
+	margin:0 0 10px;
+	line-height: 20px;
+    font-weight: 300;
+	color: #333;
+}
+.btn a{
+	background:#da1010;
+	border-radius:30px;
+	font-size:14px;
+	font-family:Roboto;
+	text-decoration:none;
+	padding: 9px 17px;
+	color: #fff;
+    display: inline-block;
+	font-weight:bold;
+    line-height: 14px;
+}
+.btn a:hover{
+	background:black;
+}
+
+@media (min-width:992px) and (max-width: 1199px){
+	.outer{
+		height:198%;
+		
+	}
+	.container2{
+		margin:0 114.5px;
+		margin-top:187px;
+        width: 980px;
+		display:block;
+	}
+	.info{
+		width:455px;
+	    margin-left: 15px;
+        margin-right: 15px;
+		margin-top:30px;
+	}
+	
+}
+@media (min-width:768px) and (max-width: 991px){
+	.outer{
+		height:230%;
+	}
+    .logo{
+	padding-top:60px;
+}
+.container2{
+		margin:0 120.5px;
+		margin-top:147px;
+        width:760px;
+		display:block;
+	}
+	.info{
+		width:345px;
+		height:350px;
+	    margin-left: 15px;
+        margin-right: 15px;
+		margin-top:30px;
+	}
+}
+@media (min-width:440px) and (max-width: 767px){
+	.outer{
+		height:370%;
+	}
+	.container1{
+		height:300px;
+	}
+	.logo{
+		width:120px;
+		height:64.56px;
+		padding-top: 40px;
+        margin: 0 auto;
+	}
+	.logo img{
+		width:120px;
+		height:64.56px;
+	}
+	.container2{
+		margin:0 auto;
+		padding:0px 15px;
+		margin-top: 105px;
+        width: 96%;
+		display:block;
+		
+	}
+	.info{
+		width:100%;
+		height:254px;
+	    margin-left: 0px;
+        margin-top: 30px;
+	}
+	.work{
+		min-height:auto;
+	}
+}
+@media (max-width:439px){
+	.outer{
+		height:%;
+	}
+	.container1{
+		height:300px;
+	}
+	.logo{
+		width:120px;
+		height:64.56px;
+		padding-top: 40px;
+        margin: 0 auto;
+	}
+	.logo img{
+		width:120px;
+		height:64.56px;
+	}
+	.container2{
+		margin:0 auto;
+		padding:0px 15px;
+		margin-top: 105px;
+		display:block;
+		
+	}
+	.info{
+		width:100%;
+		height:270px;
+	    margin-left: 0px;
+        margin-top: 30px;
+	}
+	.work{
+		min-height:auto;
+	}
+}
+}
